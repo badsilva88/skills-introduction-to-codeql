@@ -28,3 +28,6 @@ def index():
         books = [Book(*row) for row in cursor]
         
     return render_template('books.html', books=books)
+
+
+
